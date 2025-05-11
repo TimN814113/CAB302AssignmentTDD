@@ -32,7 +32,7 @@ public class QuizTest {
     public void cleanup() throws SQLException {
         // Remove the quiz inserted by the test
         if (insertedQuizId != -1) {
-            PreparedStatement stmt = connection.prepareStatement("DELETE FROM quiz WHERE quiz_id = ?");
+            PreparedStatement stmt = connection.prepareStatement("DELETE FROM Quiz WHERE quiz_id = ?");
             stmt.setInt(1, insertedQuizId);
             stmt.executeUpdate();
 

@@ -1,0 +1,36 @@
+# User stories
+
+As a user, i want to upload a pdf containing lecture notes so that i can create a quiz based on the information presented in the pdf.
+
+Acceptance criteria:
+• Given I have a PDF file containing lecture notes
+• When I upload the PDF through the upload interface
+• Then the system should create a quiz based on the PDF content
+
+As a user, i want a learn page, where i can view the questions on a preexisting quiz in my account, so that i can learn what the question are and the correct response.
+
+Acceptance criteria:
+• Given I have created quizzes in my account
+• When I navigate to the learn page
+• Then I should see all questions and their correct answers from my existing quizzes
+
+As a user, i want my created quizzes to be stored in a database, so that i can test myself on old quizzes
+
+Acceptance criteria:
+• Given I have created a quiz
+• When I save the quiz
+• Then it should be stored in the database and accessible for future use
+
+As a user, i want to delete quizzes that are stored in the database, so that i can remove quizzes that i no longer need to study
+
+Acceptance criteria:
+• Given I have quizzes stored in the database
+• When I select and delete a quiz
+• Then the quiz should be permanently removed from my stored quizzes
+
+As a user, i want a results page, so that i can view all the results for my quizzes that i have attempted and see what quizzes and what questions in them that i am struggling with.
+
+Acceptance criteria:
+• Given I have completed one or multiple quizzes
+• When I visit the results page
+• Then I should see my performance statistics and identify challenging questions across all attempted quizzes

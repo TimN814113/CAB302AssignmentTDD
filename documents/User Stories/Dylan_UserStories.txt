@@ -1,0 +1,54 @@
+	1. 
+	As a User
+	I want the ability to share my save data between devices
+	So that I can access my quizzes and progress on multiple devices
+	
+	Criteria:
+	Given I have saved quizzes to a registered account
+	When I login on a new device
+	Then my quizzes and progress should be accessible
+	
+	2. As a User
+	I want the ability to see how my skills are progressing on a topic or quiz
+	So that I can assess whether I am improving or not and adjust my study habits accordingly
+	
+	Criteria:
+	Given I have saved quizzes to a registered account
+	When I go to the Previous results page and select a topic
+	Then my previous quiz scores related to that topic are shown with an average score + progression overtime
+	
+	3. As a Supplier
+	I want the ability to ensure that users data stored within the software is secure
+	So that I can safely sell the product
+	
+	Criteria:
+	Given a user has signed up
+	When the sign up data is transferred into the database
+	Then a hashing algorithm is run to encrypt the sensitive data
+	
+	4. As a User
+	I want the ability to learn a topic before taking a quiz on it
+	So that I'm not testing myself on a topic I am unfamiliar with
+	
+	Criteria:
+	Given the user is on the Learn a topic page
+	When they insert the preferred topic they'd like to study
+	Then a set of practice questions and fully explained answers is displayed
+	
+	5. As a User
+	I want the ability to generate multiple choice and short answer quizzes
+	So that I can test myself in multiple different ways
+
+	Criteria:
+	Given a user is on the quiz page
+	When they insert material/a topic into the application
+	Then they are a presented with an option to generate a multiple choice quiz or a short answer quiz
+	
+	6. As a User
+	I want the ability to generate quizzes of varying difficulty
+	So that if I am struggling on a topic I can ease the difficulty to learn more efficiently
+	
+	Criteria:
+	Given that the user has inserted material/a topic into the quiz page
+	When they generate a quiz a difficulty prompt appears
+	Then the user is allowed to adjust the difficulty of the question

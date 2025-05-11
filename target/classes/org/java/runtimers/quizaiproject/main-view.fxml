@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.java.runtimers.quizaiproject.controller.MainViewController">
+   <children>
+
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="115.0" prefWidth="600.0" style="-fx-background-color: Black;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="16.0" layoutY="10.0" text="Quiz AI" textFill="WHITE" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Yu Gothic UI Regular" size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="settingsLink" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="20.0">
+               <graphic>
+                  <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../images/icons8-settings-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="logoutLink" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../images/icons8-logout-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+
+
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0">
+         <children>
+            <Button id="takeQuizLink" fx:id="takequizbutton" layoutX="624.0" layoutY="55.0" mnemonicParsing="false" onAction="#onTakeQuizButtonClick" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #007bff; -fx-background-radius: 20;" text="Take a Quiz" textFill="WHITE" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font name="Yu Gothic UI Regular" size="40.0" />
+               </font>
+            </Button>
+            <Button id="learnTopicLink" layoutX="197.0" layoutY="519.0" mnemonicParsing="false" onAction="#onLearnTopicButtonClick" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #007bff; -fx-background-radius: 20;" text="Learn a Topic" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="100.0">
+               <font>
+                  <Font name="Yu Gothic UI Regular" size="40.0" />
+               </font>
+            </Button>
+            <Button id="resultsLink" layoutX="947.0" layoutY="544.0" mnemonicParsing="false" onAction="#onResultsButtonClick" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #007bff; -fx-background-radius: 20;" text="Previous Results" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font size="40.0" />
+               </font></Button>
+            <Button id="createQuizLink" layoutX="59.0" layoutY="36.0" mnemonicParsing="false" onAction="#onCreateButtonClick" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #007bff; -fx-background-radius: 20;" text="Create a Quiz" textFill="WHITE" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font name="Yu Gothic UI Regular" size="40.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+
+
+
+
+
+
+
+
+
+</AnchorPane>

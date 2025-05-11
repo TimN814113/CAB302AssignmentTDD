@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5edd443-afcf-47dd-939f-5711661fbd86" name="Changes" comment="examples of how to implement tests" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hashedLogin" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOMPplc6R40Lf&quot;,
+        &quot;number&quot;: 2
+      },
+      &quot;lastSeen&quot;: 1744180205785
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Abiiwritten/AiQuizProject.git",
+    "accountId": "89de89a4-dd00-4bd0-940a-56d1045df929"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "Abiiwritten",
+    "repository": "AiQuizProject"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2uc1QzlORP7nyCyu6JC8z1DyyqJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Default Run.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.QuestionTest.executor": "Run",
+    "JUnit.QuestionTest.testquestionid.executor": "Run",
+    "JUnit.QuestionTest.testquestionnumber.executor": "Run",
+    "JUnit.QuestionTest.testquestiontext.executor": "Run",
+    "JUnit.QuestionTest.testquizid.executor": "Run",
+    "JUnit.UserTest.executor": "Run",
+    "JUnit.UserTest.testFirstName.executor": "Run",
+    "Maven.QuizAIProject [install].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "unit__test__example",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/abhin/OneDrive/Documents/2025 Semester 1/CAB302/Assignment/QuizAIProject/QuizAIProject/src/main/java/org/java/runtimers/quizaiproject",
+    "last_opened_file_path": "C:/Users/abhin/OneDrive/Documents/2025 Semester 1/CAB302/Assignment/QuizAIProject/QuizAIProject/src/main/resources/org/java/runtimers/quizaiproject",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5862069",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject\src\main\resources\org\java\runtimers\quizaiproject" />
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject\src\main\resources\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject\src\main\resources\org\java\runtimers\quizaiproject" />
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject\src\main\resources\images" />
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject" />
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject\src\main\java\org\java\runtimers\quizaiproject" />
+      <recent name="C:\Users\abhin\OneDrive\Documents\2025 Semester 1\CAB302\Assignment\QuizAIProject\QuizAIProject\src\main\resources\database" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.java.runtimers.quizaiproject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Default Run">
+    <configuration name="Default Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.java.runtimers.quizaiproject.HelloApplication" />
+      <module name="QuizAIProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuizAIProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionTest.testquestiontext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuizAIProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestionTest" />
+      <option name="METHOD_NAME" value="testquestiontext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionTest.testquizid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuizAIProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestionTest" />
+      <option name="METHOD_NAME" value="testquizid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuizAIProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuizAIProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="METHOD_NAME" value="testFirstName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuestionTest" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.UserTest.testFirstName" />
+        <item itemvalue="JUnit.QuestionTest.testquizid" />
+        <item itemvalue="JUnit.QuestionTest.testquestiontext" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5edd443-afcf-47dd-939f-5711661fbd86" name="Changes" comment="" />
+      <created>1742533037582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742533037582</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added and connected template views for signup, login, create account to their respective buttons">
+      <option name="closed" value="true" />
+      <created>1742542278181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742542278181</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added and connected template views for signup, login, create account to their respective buttons">
+      <option name="closed" value="true" />
+      <created>1744024435297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744024435297</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Hello Application working, attempting db fixes">
+      <option name="closed" value="true" />
+      <created>1744024660536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744024660536</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Hello Application working, attempting db fixes">
+      <option name="closed" value="true" />
+      <created>1744027321983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744027321983</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Working pull from database to quizgameplay">
+      <option name="closed" value="true" />
+      <created>1744033000972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744033000972</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working pull from database to quizgameplay">
+      <option name="closed" value="true" />
+      <created>1744033013497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744033013497</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Quiz connection to database complete, started gameplay">
+      <option name="closed" value="true" />
+      <created>1744040794713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744040794713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main-view completed, gameplay begun implementation">
+      <option name="closed" value="true" />
+      <created>1744085144285</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744085144285</updated>
+    </task>
+    <task id="LOCAL-00009" summary="main-view, navbar completed, gameplay logic complete">
+      <option name="closed" value="true" />
+      <created>1744089412290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744089412290</updated>
+    </task>
+    <task id="LOCAL-00010" summary="main-view, navbar completed, gameplay logic complete">
+      <option name="closed" value="true" />
+      <created>1744091005406</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744091005406</updated>
+    </task>
+    <task id="LOCAL-00011" summary="results stored to databased completed">
+      <option name="closed" value="true" />
+      <created>1744179070085</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744179070085</updated>
+    </task>
+    <task id="LOCAL-00012" summary="results stored to databased, randomized choices completed">
+      <option name="closed" value="true" />
+      <created>1744179692687</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744179692687</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hashed Login completed, corrected database">
+      <option name="closed" value="true" />
+      <created>1744181242350</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744181242350</updated>
+    </task>
+    <task id="LOCAL-00014" summary="examples of how to implement tests">
+      <option name="closed" value="true" />
+      <created>1745757189391</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745757189391</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added and connected template views for signup, login, create account to their respective buttons" />
+    <MESSAGE value="Hello Application working, attempting db fixes" />
+    <MESSAGE value="Working pull from database to quizgameplay" />
+    <MESSAGE value="Quiz connection to database complete, started gameplay" />
+    <MESSAGE value="main-view completed, gameplay begun implementation" />
+    <MESSAGE value="main-view, navbar completed, gameplay logic complete" />
+    <MESSAGE value="results stored to databased completed" />
+    <MESSAGE value="results stored to databased, randomized choices completed" />
+    <MESSAGE value="hashed Login completed, corrected database" />
+    <MESSAGE value="examples of how to implement tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples of how to implement tests" />
+  </component>
+</project>

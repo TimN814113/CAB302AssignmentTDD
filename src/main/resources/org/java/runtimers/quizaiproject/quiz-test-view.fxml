@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.java.runtimers.quizaiproject.controller.QuizTestViewController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="115.0" prefWidth="600.0" style="-fx-background-color: Black;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="16.0" layoutY="10.0" text="Quiz AI" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Yu Gothic UI Regular" size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="settingsLink" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="20.0">
+               <graphic>
+                  <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../images/icons8-settings-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="logoutLink" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../images/icons8-logout-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ToolBar layoutX="240.0" layoutY="148.0" prefHeight="85.0" prefWidth="800.0" style="-fx-border-style: solid;" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="125.0">
+        <items>
+          <Button fx:id="ButtonQuestion1Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="1" />
+            <Button fx:id="ButtonQuestion2Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="2" />
+            <Button fx:id="ButtonQuestion3Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="3" />
+            <Button fx:id="ButtonQuestion4Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="4" />
+            <Button fx:id="ButtonQuestion5Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="5" />
+            <Button fx:id="ButtonQuestion6Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="6" />
+            <Button fx:id="ButtonQuestion7Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="7" />
+            <Button fx:id="ButtonQuestion8Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="8" />
+            <Button fx:id="ButtonQuestion9Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="9" />
+            <Button fx:id="ButtonQuestion10Link" mnemonicParsing="false" onAction="#handleLinkButtonClick" prefHeight="75.0" prefWidth="75.0" styleClass="custom_Button" stylesheets="@stylesheet.css" text="10" />
+        </items>
+      </ToolBar>
+      <AnchorPane layoutX="240.0" layoutY="254.0" prefHeight="420.0" prefWidth="800.0" style="-fx-background-color: lightgrey; -fx-border-style: solid;" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="255.0">
+         <children>
+            <AnchorPane prefHeight="70.0" prefWidth="800.0" style="-fx-border-width: 2; -fx-border-style: hidden hidden solid hidden;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="LabelQuestionNumber" layoutX="14.0" layoutY="9.0" text="Question 1" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="9.0">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1.0" layoutY="75.0" prefHeight="100.0" prefWidth="200.0" style="-fx-border-style: hidden hidden solid hidden; -fx-border-width: 2;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0">
+               <children>
+                  <Label fx:id="LabelQuestionText" alignment="TOP_LEFT" layoutX="14.0" layoutY="6.0" prefHeight="87.0" prefWidth="769.0" style="-fx-wrap-text: true;" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada turpis et ex auctor molestie. Donec diam sapien, tempus vitae tempor eget, tincidunt sed quam. Vestibulum ultrices tempus dapibus. Sed tristique quam turpis, non sagittis nunc fermentum vitae. " AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="4.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1.0" layoutY="171.0" minHeight="-Infinity" prefHeight="250.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="169.0">
+               <children>
+                  <VBox layoutX="8.0" layoutY="11.0" prefHeight="229.0" prefWidth="685.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="11.0">
+                     <children>
+                        <RadioButton fx:id="RadioButtonAnswer1" mnemonicParsing="false" prefHeight="100.0" text="Answer A">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleGroupAnswers" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="RadioButtonAnswer2" mnemonicParsing="false" prefHeight="100.0" text="Answer B" toggleGroup="$toggleGroupAnswers">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="RadioButtonAnswer3" mnemonicParsing="false" prefHeight="100.0" text="Answer C" toggleGroup="$toggleGroupAnswers">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="RadioButtonAnswer4" mnemonicParsing="false" prefHeight="100.0" text="Answer D" toggleGroup="$toggleGroupAnswers">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </VBox>
+                  <Button fx:id="SubmitAnswer" layoutX="700.0" layoutY="203.0" mnemonicParsing="false" onAction="#onSubmitAnswerClick" text="Submit Answer" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1108.0" layoutY="144.0" mnemonicParsing="false" onAction="#onBackToMainPageButtonClick" prefHeight="53.0" prefWidth="146.0" text="Back to Main Page" />
+   </children>
+</AnchorPane>

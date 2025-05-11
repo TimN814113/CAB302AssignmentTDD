@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.java.runtimers.quizaiproject.controller.SignupController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <HBox prefHeight="19.0" prefWidth="320.0" />
+        <TextField  fx:id="firstNameField" layoutX="11.0" layoutY="130.0" prefHeight="41.0" promptText="First Name">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </TextField>
+
+        <TextField  fx:id="lastNameField" layoutX="11.0" layoutY="185.0" prefHeight="41.0" prefWidth="340.0" promptText="Last Name">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </TextField>
+
+        <TextField  fx:id="emailField" layoutX="11.0" layoutY="240.0" prefHeight="41.0" prefWidth="340.0" promptText="Email">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </TextField>
+
+        <PasswordField fx:id="passwordField" layoutX="11.0" layoutY="295.0" prefHeight="41.0" prefWidth="340.0" promptText="Password">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </PasswordField>
+
+        <PasswordField fx:id="confirmPasswordField" layoutX="11.0" layoutY="350.0" prefHeight="41.0" prefWidth="340.0" promptText="Confirm Password">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </PasswordField>
+        <Button alignment="CENTER" layoutX="69.0" layoutY="420.0" fx:id="signupButton" onAction="#onSignupButtonClick" prefHeight="36.0" prefWidth="222.0" style="-fx-background-radius: 200;" styleClass="custom_Button" stylesheets="@stylesheet.css" text="Signup">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </Button>
+        <Label alignment="CENTER" layoutX="11.0" layoutY="19.0" prefHeight="100" prefWidth="340" text="Sign Up" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold Italic" size="68.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </Label>
+
+        <Button id="hadAccount" alignment="CENTER" layoutX="82.0" layoutY="472.0" mnemonicParsing="false"
+                onAction="#onHadAccountButtonClick" prefHeight="34.0" prefWidth="197.0" stylesheets="@stylesheet.css"
+                text="Already had an account? Login"  textAlignment="CENTER">
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </Button>
+
+        <Label fx:id="signupErrorLabel" alignment="CENTER" layoutY="390" prefHeight="30.0" prefWidth="340.0" text="" textFill="RED" visible="false">
+            <font>
+                <Font size="14.0" />
+            </font>
+            <AnchorPane.leftAnchor>10</AnchorPane.leftAnchor>
+            <AnchorPane.rightAnchor>10</AnchorPane.rightAnchor>
+        </Label>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="655.0" prefWidth="1007.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.java.runtimers.quizaiproject.controller.ResultsViewController">
+   <children>
+       <AnchorPane prefHeight="115.0" prefWidth="600.0" style="-fx-background-color: Black;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+           <children>
+               <Label layoutX="16.0" layoutY="10.0" text="Quiz AI" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+                   <font>
+                       <Font name="Yu Gothic UI Regular" size="64.0" />
+                   </font>
+               </Label>
+               <Button fx:id="settingsLink" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="20.0">
+                   <graphic>
+                       <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                               <Image url="@../../../../images/icons8-settings-96.png" />
+                           </image>
+                       </ImageView>
+                   </graphic>
+               </Button>
+               <Button fx:id="logoutLink" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: transparent;" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+                   <graphic>
+                       <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                               <Image url="@../../../../images/icons8-logout-96.png" />
+                           </image>
+                       </ImageView>
+                   </graphic>
+               </Button>
+           </children>
+       </AnchorPane>
+   </children>
+    <Button fx:id="homeLink" layoutX="1020.0" layoutY="183.0" mnemonicParsing="false" onAction="#onBackToMainPageButtonClick" prefHeight="51.0" prefWidth="143.0" text="Back to Main Page" AnchorPane.rightAnchor="117.0" ></Button>
+    <TableView fx:id="resultsTable" prefHeight="200.0" prefWidth="361.0"
+               AnchorPane.leftAnchor="323.0" AnchorPane.rightAnchor="323.0"
+               AnchorPane.topAnchor="250.0">
+        <columns>
+            <TableColumn fx:id="quizColumn" prefWidth="271.0" text="Quiz" />
+            <TableColumn fx:id="scoreColumn" prefWidth="90.0" text="Score" />
+        </columns>
+    </TableView>
+</AnchorPane>

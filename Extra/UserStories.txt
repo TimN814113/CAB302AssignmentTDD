@@ -1,0 +1,26 @@
+1. As a student, I want to be able to see the time it takes for me to answer questions, so that I can improve my speed.
+    Acceptance Criteria:
+        Given I have completed a quiz.
+        When I review my results.
+        Then I can see the time it took to answer each question.
+
+2. As a student, I want to be able to review past quizzes and their results, so that I can track my learning progress.
+    Acceptance Criteria:
+        Given I have taken past quizzes,
+        When I view the quiz history,
+        Then I can see past quizzes and results.
+3. As a student, I want to receive AI-generated summaries of complex topics within the study material, so that I can quickly grasp key concepts.
+    Acceptance Criteria:
+        Given I have uploaded study materials,
+        When I request a summary,
+        Then the AI generates a concise summary.
+4. As a student, I want to receive personalized feedback and recommendations based on my quiz performance, so that I know what to focus on.
+    Acceptance Criteria:
+        Given my quiz results are available,
+        When I view my feedback,
+        Then I see specific recommendations and learning strategies.
+5. As a student, I want to be able to bookmark specific questions for later review, so that I can create a personalized study guide.
+    Acceptance Criteria:
+        Given I am viewing a quiz question,
+        When I click the bookmark button,
+        Then the question is saved to my bookmarks.

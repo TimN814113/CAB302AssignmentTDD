@@ -1,0 +1,36 @@
+#createAccount{
+    -fx-text-fill: #007bff;
+    -fx-background-color:transparent;
+    -fx-font-size: 1.3em;
+}
+
+#forgotPassword{
+    -fx-text-fill: #007bff;
+    -fx-background-color:transparent;
+    -fx-font-size: 1.3em;
+}
+
+#hadAccount{
+    -fx-text-fill: #007bff;
+    -fx-background-color:transparent;
+    -fx-font-size: 1.0em;
+}
+
+.custom_Button{
+    -fx-background-color:dodgerblue;
+    -fx-font-size: 2em;
+    -fx-text-fill: white;
+}
+
+.custom_Button:hover{
+    -fx-font-size: 2em;
+}
+
+.custom_Button:disabled{
+    -fx-background-color:green;
+}
+
+.root{
+    -fx-font-family: "Yu Gothic UI Regular";
+
+}

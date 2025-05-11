@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="520.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.java.runtimers.quizaiproject.controller.HelloController">
+   <children>
+      <HBox prefHeight="19.0" prefWidth="320.0" />
+      <TextField  fx:id="emailField" layoutX="11.0" layoutY="195.0" prefHeight="51.0" prefWidth="340.0" promptText="Email">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="11.0" layoutY="260.0" prefHeight="51.0" prefWidth="340.0" promptText="Password">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </PasswordField>
+      <Button alignment="CENTER" layoutX="69.0" layoutY="365.0" fx:id="loginButton" onAction="#onLoginButtonClick" prefHeight="36.0" prefWidth="222.0" style="-fx-background-radius: 200;" styleClass="custom_Button" stylesheets="@stylesheet.css" text="Login">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="82.0" layoutY="439.0" prefHeight="25.0" prefWidth="197.0" text="New to Quiz Ai?" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+
+      <Button id="createAccount" alignment="CENTER" layoutX="82.0" layoutY="472.0" mnemonicParsing="false"
+              onAction="#onCreateAccountButtonClick" prefHeight="34.0" prefWidth="197.0"
+              stylesheets="@stylesheet.css" text="Create Account Here" textAlignment="CENTER" />
+      <Button id="forgotPassword" alignment="CENTER" layoutX="82.0" layoutY="330.0" mnemonicParsing="false"
+              onAction="#onForgotPasswordButtonClick" prefHeight="33.0" prefWidth="197.0"
+              stylesheets="@stylesheet.css" text="Forgot Password?" />
+
+      <Label layoutX="20.0" layoutY="142.0" prefHeight="38.0" prefWidth="320.0" text="Sign In">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="19.0" alignment="CENTER" prefHeight="100.0" prefWidth="340.0" text="Login">
+         <font>
+            <Font name="System Bold Italic" size="68.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginErrorLabel" alignment="CENTER" layoutY="310.0" prefHeight="30.0" prefWidth="340.0" text="" textFill="RED" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,84 @@
+Marcus F User Stories:
+
+User Story 1:
+
+As a Customer
+I want a shared quiz for a group
+So that I can create quick quizes for all my students
+
+Given a shared database for multiple users to draw quizes from
+When creating a quiz, be able to share it with others
+Then multiple users can take the same quiz
+
+User Story 2:
+
+As a Supplier
+I want a product that can be sold quickly and efficiently
+So that it can be distributed quickly and with minimum cost
+
+Acceptance Criteria
+Given a product with clear documentation and deployment options
+When I list the product on digital marketplaces or deliver it to clients
+Then the setup and onboarding process should be streamlined, requiring minimal post launch support and enabling rapid adoption by customers
+
+User Story 3:
+
+As a User
+I want to save my completed quizzes
+So that I can review my performance over time
+
+Acceptance Criteria
+Given I finish a quiz
+When I click "Save Results"
+Then my answers and scores are stored and viewable in my account history
+
+User Story 4:
+
+As a User
+I want instant feedback after answering each question
+So that I can learn from my mistakes right away
+
+Acceptance Criteria
+Given a submitted answer
+When I complete a question and click "Submit"
+Then the bot should show whether my answer was correct, and display the correct answer if I was wrong
+
+User Story 5: 
+
+As a Student
+I want to choose the difficulty level of my quiz
+So that I can test myself at the appropriate challenge level
+
+Acceptance Criteria
+Given a list of difficulty options (e.g., Easy, Medium, Hard)
+When I select a difficulty level before generating a quiz
+Then the AI should generate questions suited to that level
+
+Tim
+1. As a student, I want to be able to see the time it takes for me to answer questions, so that I can improve my speed.
+    Acceptance Criteria:
+        Given I have completed a quiz.
+        When I review my results.
+        Then I can see the time it took to answer each question.
+
+2. As a student, I want to be able to review past quizzes and their results, so that I can track my learning progress.
+    Acceptance Criteria:
+        Given I have taken past quizzes,
+        When I view the quiz history,
+        Then I can see past quizzes and results.
+3. As a student, I want to receive AI-generated summaries of complex topics within the study material, so that I can quickly grasp key concepts.
+    Acceptance Criteria:
+        Given I have uploaded study materials,
+        When I request a summary,
+        Then the AI generates a concise summary.
+4. As a student, I want to receive personalized feedback and recommendations based on my quiz performance, so that I know what to focus on.
+    Acceptance Criteria:
+        Given my quiz results are available,
+        When I view my feedback,
+        Then I see specific recommendations and learning strategies.
+5. As a student, I want to be able to bookmark specific questions for later review, so that I can create a personalized study guide.
+    Acceptance Criteria:
+        Given I am viewing a quiz question,
+        When I click the bookmark button,
+        Then the question is saved to my bookmarks.
+
